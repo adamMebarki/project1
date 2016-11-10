@@ -11,8 +11,12 @@
             $note=11.5;
             echo '<p>Le salaire auquel j\'aspire pour bien vivre : <b>'.$salaire.'</b></br>
             La branche dans laquelle je travaille ou souhaiterais travailler : <b>'.$domaine.'</b>.</br>
-            Pour préciser : <b>'.$domaine.'est la branche dans laquelle je travaille.</b>.</br>
+            Pour préciser : <b>'.$domaine.'est la branche dans laquelle je travaille</b>.</br>
             La note moyenne que j\'ai obtenue au bac : <b>'.$note.'</b></br></p>';
         ?>
-        </body>
+
+        <a href="index.php">Come back</a>
+
+
+    </body>
 </html>
