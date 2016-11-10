@@ -16,7 +16,7 @@
             echo '<p>Bonjour à tous.</br>
             Mon vrai nom n\'est pas Toto.</br>
             Mon vrai nom est '.$name.'</br>
-            J\'ai'.$age.' ans et je mesure'.$taille.'m</br>
+            J\'ai '.$age.' ans et je mesure '.$taille.'m</br>
             Et comme mon nom l\'indique, je suis';
             if ($gars==true){
                 echo 'un garçon.</p>';
@@ -26,5 +26,7 @@
             }
 
         ?>
+    <a href="emploi.php">yeah de l'emmploi !!!</a>
+
     </body>
 </html>
