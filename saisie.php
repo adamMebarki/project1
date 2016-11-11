@@ -10,9 +10,13 @@
         </form>
         <?php
             if(isset($_POST['valider'])){
-                $pseudo=$_POST['pseudo'];
+                /*$pseudo=$_POST['pseudo'];
                 $ville=$_POST['ville'];
                 echo 'Salut '. $pseudo.'de '. $ville.'<br/>Bienvenue sur mon site !';
+                */
+                foreach ($_POST as $index=>$valeur){
+                    echo '- '.$valeur.'</br>';
+                }
             }
         ?>
         <a href="index.php">Come back</a>

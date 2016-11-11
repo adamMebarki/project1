@@ -10,13 +10,17 @@
         </form>
             <?php
             if(isset($_POST['valider'])){
-                $name=$_POST['name'];
+              /*  $name=$_POST['name'];
                 $taille=$_POST['taille'];
                 $poids=$_POST['poids'];
                 $imc= $poids%($taille*$taille);
                 echo '<p>Salut '. $name.'<br/>
                 Votre IMC (indice de masse corporelle) est exactement : '.$imc.'</br>';
-            }
+                */
+                foreach ($_POST as $index=>$valeur){
+                    echo '- '.$valeur.'</br>';
+                }
+              }
             ?>
         <a href="index.php">Come back</a>
 
