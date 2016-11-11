@@ -26,8 +26,10 @@
             }
 
         ?>
-    <a href="emploi.php">yeah de l'emmploi !!!</a>
-    <a href="saisie.php">formulaire yeah</a>
-
+        <ul>
+    <li><a href="emploi.php">yeah de l'emmploi !!!</a></li>
+    <li><a href="saisie.php">formulaire yeah</a></li>
+    <li><a href="array.php">array manipulation</a></li>
+        </ul>
     </body>
 </html>
