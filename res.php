@@ -12,10 +12,12 @@ include('function.php');
  * Date: 15/11/2016
  * Time: 11:10
  */
-
-        calcNP($_POST['premier']);
+    echo ''.$number;
+        $nombre = $_POST['premier'];
+        calcNP();
 
 ?>
+
 <a href="saisieNP.php">Come back</a>
 
 </body>
