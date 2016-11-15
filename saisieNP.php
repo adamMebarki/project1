@@ -11,8 +11,8 @@
 
 <?php
     if(isset($_POST['valider'])) {
-
-        header('Location: res.php?number=\'.$_POST["premier"]');
+        $number = $_POST['premier'];
+        header('Location: res.php?number='.$number);
     }
 ?>
 
