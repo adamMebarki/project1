@@ -12,8 +12,9 @@ include('function.php');
  * Date: 15/11/2016
  * Time: 11:10
  */
-    echo ''.$number;
-        $nombre = $_POST['premier'];
+
+        $nombre = $_GET['premier'];
+        echo ''.$nombre;
         calcNP();
 
 ?>
