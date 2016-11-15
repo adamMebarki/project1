@@ -9,7 +9,7 @@
     function calcNP($nombre){
 
         $res = $nombre%2;
-
+        echo 'res : '.$res;
         if($res == 0){
             echo $nombre.' :  Non premier';
 
