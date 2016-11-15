@@ -15,7 +15,7 @@ include('function.php');
 
         $nombre = $_GET['number'];
         echo ''.$nombre;
-        calcNP();
+        calcNP($nombre);
 
 ?>
 
