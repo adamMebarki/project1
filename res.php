@@ -13,7 +13,7 @@ include('function.php');
  * Time: 11:10
  */
 
-        $nombre = $_GET['premier'];
+        $nombre = $_GET['number'];
         echo ''.$nombre;
         calcNP();
 
