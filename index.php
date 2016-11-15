@@ -30,6 +30,9 @@
     <li><a href="emploi.php">yeah de l'emmploi !!!</a></li>
     <li><a href="saisie.php">formulaire yeah</a></li>
     <li><a href="array.php">array manipulation</a></li>
+    <li><a href="imc.php">calcul de l'IMC</a></li>
+    <li> <a href="saisieNP.php">Come back</a></li>
+
         </ul>
     </body>
 </html>
