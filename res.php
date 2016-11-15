@@ -5,7 +5,7 @@
 <h1>Resultat nombre premier</h1>
 <?php
 
-include 'functions.php';
+include 'fonctions.php';
 /**
  * Created by PhpStorm.
  * User: Adam
